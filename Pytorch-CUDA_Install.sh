@@ -40,7 +40,10 @@ fi
 pip install pandas
 pip install scikit-learn
 pip install matplotlib
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install openpyxl
+pip install datasets
+pip install sentence-transformers
+pip install torch torchvision torchaudio
 
 # Deactivate the environment (optional)
 conda deactivate
