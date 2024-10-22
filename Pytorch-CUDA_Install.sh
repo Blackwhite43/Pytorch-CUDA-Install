@@ -43,7 +43,8 @@ pip install matplotlib
 pip install openpyxl
 pip install datasets
 pip install sentence-transformers
-pip install torch torchvision torchaudio
+pip install transformers[torch]
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu124
 
 # Deactivate the environment (optional)
 conda deactivate
