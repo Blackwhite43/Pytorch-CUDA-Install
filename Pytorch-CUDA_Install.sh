@@ -14,7 +14,7 @@ else
 fi
 
 # Create the environment with -y to auto-confirm
-ENV_NAME=pytorch-cuda-env-temp
+ENV_NAME=pytorch-cuda-env
 PYTHON_VERSION=3.12
 echo "Creating environment $ENV_NAME with Python $PYTHON_VERSION"
 
