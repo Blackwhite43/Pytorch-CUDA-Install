@@ -44,10 +44,14 @@ pip install openpyxl
 pip install datasets
 pip install sentence-transformers
 pip install torch torchvision torchaudio
-pip install transformers[torch]==4.45.2
+pip install transformers[torch]
+pip install numpy==1.26.4
 
 # Deactivate the environment (optional)
 conda deactivate
-echo "Conda environment deactivated."
 
+# Delete All Cache Folder
+rm -rf ~/.cache
+
+echo "Conda environment deactivated."
 echo "Finished running commands."
