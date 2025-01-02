@@ -15,7 +15,7 @@ fi
 
 # Create the environment with -y to auto-confirm
 ENV_NAME=pytorch-cuda-env
-PYTHON_VERSION=3.12
+PYTHON_VERSION=3.13
 echo "Creating environment $ENV_NAME with Python $PYTHON_VERSION"
 
 conda create -n $ENV_NAME python=$PYTHON_VERSION -y
@@ -45,6 +45,7 @@ pip install datasets
 pip install sentence-transformers
 pip install torch torchvision torchaudio
 pip install transformers[torch]
+pip install ipywidgets
 pip install numpy==1.26.4
 
 # Deactivate the environment (optional)
