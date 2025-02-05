@@ -1,7 +1,7 @@
 # Pytorch-CUDA-Install
 Run your Pytorch with CUDA Support Locally. Just run shell script file in your Ubuntu System to install the newest version of Pytorch with CUDA Support
 
-This repository contains a shell script to create a new conda environment called **"pytorch-cuda-env"** with Python version 3.12.x and install latest Pytorch along with CUDA 12.4 support on the environment in your Ubuntu System. This will enable you train your Pytorch Deep Learning Project faster with the help of GPU acceleration (NVIDIA only). The objecetive of this shell script is that you only need to run this script and Pytorch with CUDA support will be installed already.
+This repository contains a shell script to create a new conda environment called **"pytorch-cuda-env"** with Python version 3.13.x and install latest Pytorch along with CUDA 12.4 support on the environment in your Ubuntu System. This will enable you train your Pytorch Deep Learning Project faster with the help of GPU acceleration (NVIDIA only). The objecetive of this shell script is that you only need to run this script and Pytorch with CUDA support will be installed already.
 
 **Note:**
 
@@ -20,7 +20,7 @@ Before running the script, ensure that you have the following prerequisites inst
 1. Ubuntu 18.04 or later
 2. Windows WSL2 - Windows 10 19044 or higher (64-bit) (If you want to use it on WSL2)
 3. TensorRT (Optional)
-4. Latest NVIDIA GPU Driver Installed in Windows (Tested on RTX 3060 12 GB Desktop with 560.94 Game Ready Driver)
+4. Latest NVIDIA GPU Driver Installed in Windows (Tested on RTX 3060 12 GB Desktop with 572.16 Game Ready Driver)
 5. Anaconda/Miniconda
 
 **Installation Steps**
